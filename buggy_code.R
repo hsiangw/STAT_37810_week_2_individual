@@ -14,5 +14,5 @@ investment_value<-function(x,y,z=0.95, different_years=c(3,5)){
       x<-x*.96
     }
   }
-  return(x)
+  return(x) #return value
 }
